@@ -33,3 +33,14 @@ exercises.c:18:4: error: assignment to ‘int *’ from ‘int’ makes pointer 
 cc1: all warnings being treated as errors
 Compilation failed
 4a0c4f0
+Thu 09 Mar 2023 03:54:13 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:18:4: error: statement with no effect [-Werror=unused-value]
+   18 |   a==b;
+      |   ~^~~
+cc1: all warnings being treated as errors
+Compilation failed
+99b5940
