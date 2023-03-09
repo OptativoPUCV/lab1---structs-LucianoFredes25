@@ -56,3 +56,14 @@ Thu 09 Mar 2023 03:54:31 PM UTC:
  tests:  0|7
 total_score: 0/70
 c81352c
+Thu 09 Mar 2023 03:56:01 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘swap’:
+exercises.c:16:5: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Werror=int-conversion]
+   16 |   a = 10;
+      |     ^
+cc1: all warnings being treated as errors
+Compilation failed
+afedc07
