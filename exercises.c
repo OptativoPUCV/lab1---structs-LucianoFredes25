@@ -29,8 +29,8 @@ void arrayMaxMin(int *a, int n, int *max, int *min) {
       {
         if (i == 0)
         {
-          *max = *a[i];
-          *min = *a[i];
+          *max = a[i];
+          *min = a[i];
         }
       }
 }
