@@ -175,3 +175,15 @@ exercises.c:63:15: error: assignment to expression with array type
       |               ^
 Compilation failed
 b4a77c9
+Thu 16 Mar 2023 01:54:01 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:63:5: error: implicit declaration of function ‘strcopy’; did you mean ‘strcpy’? [-Werror=implicit-function-declaration]
+   63 |     strcopy(nombre,p->nombre);
+      |     ^~~~~~~
+      |     strcpy
+cc1: all warnings being treated as errors
+Compilation failed
+98695d1
