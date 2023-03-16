@@ -257,3 +257,13 @@ exercises.c:64:12: error: assignment to expression with array type
       |            ^
 Compilation failed
 73a37f7
+Thu 16 Mar 2023 01:58:13 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:12: error: assignment to expression with array type
+   64 |     p->rut = *rut;
+      |            ^
+Compilation failed
+bedac3b
