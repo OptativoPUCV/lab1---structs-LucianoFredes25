@@ -478,3 +478,9 @@ exercises.c:127:14: error: subscripted value is neither array nor pointer nor ve
       |              ^
 Compilation failed
 1b29721
+Thu 16 Mar 2023 02:15:19 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+8ebfd3c
