@@ -193,3 +193,13 @@ Thu 16 Mar 2023 01:54:11 PM UTC:
  tests:  2|5
 total_score: 20/70
 ec25bd5
+Thu 16 Mar 2023 01:54:54 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:64:12: error: assignment to expression with array type
+   64 |     p->rut = rut;
+      |            ^
+Compilation failed
+e947ba6
