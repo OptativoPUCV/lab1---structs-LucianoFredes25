@@ -165,3 +165,13 @@ exercises.c:63:16: error: assignment to ‘char’ from ‘char *’ makes integ
 cc1: all warnings being treated as errors
 Compilation failed
 e72206d
+Thu 16 Mar 2023 01:53:31 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearPersona’:
+exercises.c:63:15: error: assignment to expression with array type
+   63 |     p->nombre = *nombre;
+      |               ^
+Compilation failed
+b4a77c9
