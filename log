@@ -289,3 +289,17 @@ exercises.c:85:14: error: unused variable ‘v’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 629d6e3
+Thu 16 Mar 2023 02:01:26 PM UTC: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘crearVector’:
+exercises.c:85:5: error: expected expression before ‘Vector’
+   85 |     Vector * v = (Vector *) malloc(sizeof(Vector));
+      |     ^~~~~~
+exercises.c:87:10: error: ‘v’ undeclared (first use in this function)
+   87 |   return v;
+      |          ^
+exercises.c:87:10: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+db52386
