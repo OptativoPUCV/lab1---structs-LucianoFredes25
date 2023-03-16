@@ -484,3 +484,14 @@ Thu 16 Mar 2023 02:15:19 PM UTC:
  tests:  6|2
 total_score: 50/70
 8ebfd3c
+Thu 16 Mar 2023 02:15:34 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:127:13: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+  127 |   c->datos[0,1]= a1 + a2;
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+89eeb4a
