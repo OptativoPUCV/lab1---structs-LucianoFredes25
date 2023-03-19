@@ -597,3 +597,48 @@ Sun 19 Mar 2023 12:15:14 AM UTC:
  tests:  7|1
 total_score: 60/70
 b1b1c39
+Sun 19 Mar 2023 12:26:46 AM UTC: 
+ exercises.c | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:130:20: error: invalid initializer
+  130 |   Vector vectorA = crearVector(datos);
+      |                    ^~~~~~~~~~~
+exercises.c:131:20: error: invalid initializer
+  131 |   Vector vectorB = crearVector(datos);
+      |                    ^~~~~~~~~~~
+exercises.c:133:16: error: incompatible type for argument 1 of ‘asignarValor’
+  133 |   asignarValor(vectorA , 0 , a1);
+      |                ^~~~~~~
+      |                |
+      |                Vector
+exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vector’
+   97 | void asignarValor(Vector * v, int i, int valor) {
+      |                   ~~~~~~~~~^
+exercises.c:134:16: error: incompatible type for argument 1 of ‘asignarValor’
+  134 |   asignarValor(vectorA , 1 , a2);
+      |                ^~~~~~~
+      |                |
+      |                Vector
+exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vector’
+   97 | void asignarValor(Vector * v, int i, int valor) {
+      |                   ~~~~~~~~~^
+exercises.c:135:16: error: incompatible type for argument 1 of ‘asignarValor’
+  135 |   asignarValor(vectorB , 0 , b1);
+      |                ^~~~~~~
+      |                |
+      |                Vector
+exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vector’
+   97 | void asignarValor(Vector * v, int i, int valor) {
+      |                   ~~~~~~~~~^
+exercises.c:136:16: error: incompatible type for argument 1 of ‘asignarValor’
+  136 |   asignarValor(vectorB , 0 , b2);
+      |                ^~~~~~~
+      |                |
+      |                Vector
+exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vector’
+   97 | void asignarValor(Vector * v, int i, int valor) {
+      |                   ~~~~~~~~~^
+Compilation failed
+48eebe9
