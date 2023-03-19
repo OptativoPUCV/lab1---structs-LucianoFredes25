@@ -726,3 +726,13 @@ exercises.c:138:7: error: ‘b’ undeclared (first use in this function)
       |       ^
 Compilation failed
 3998992
+Sun 19 Mar 2023 12:41:28 AM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:138:12: error: invalid operands to binary + (have ‘Vector *’ and ‘Vector *’)
+  138 |   c=vectorA+vectorB;
+      |            ^
+Compilation failed
+bcc332a
