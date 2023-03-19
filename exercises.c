@@ -135,5 +135,5 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   asignarValor(vectorB , 0 , b1);
   asignarValor(vectorB , 0 , b2);
 
-  c=vectorA+vectorB;
+  c->datos[0] = vectorA->datos[0] + vectorB->datos[0];
 }
