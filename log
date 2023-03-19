@@ -642,3 +642,28 @@ exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vect
       |                   ~~~~~~~~~^
 Compilation failed
 48eebe9
+Sun 19 Mar 2023 12:28:21 AM UTC: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:130:20: error: invalid initializer
+  130 |   Vector vectorA = crearVector(datos);
+      |                    ^~~~~~~~~~~
+exercises.c:131:20: error: invalid initializer
+  131 |   Vector vectorB = crearVector(datos);
+      |                    ^~~~~~~~~~~
+exercises.c:133:16: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  133 |   asignarValor(*vectorA , 0 , a1);
+      |                ^~~~~~~~
+exercises.c:134:16: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  134 |   asignarValor(*vectorA , 1 , a2);
+      |                ^~~~~~~~
+exercises.c:135:16: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  135 |   asignarValor(*vectorB , 0 , b1);
+      |                ^~~~~~~~
+exercises.c:136:16: error: invalid type argument of unary ‘*’ (have ‘Vector’)
+  136 |   asignarValor(*vectorB , 0 , b2);
+      |                ^~~~~~~~
+Compilation failed
+4182db0

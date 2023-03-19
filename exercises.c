@@ -130,8 +130,8 @@ void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
   Vector vectorA = crearVector(datos);
   Vector vectorB = crearVector(datos);
 
-  asignarValor(vectorA , 0 , a1);
-  asignarValor(vectorA , 1 , a2);
-  asignarValor(vectorB , 0 , b1);
-  asignarValor(vectorB , 0 , b2);
+  asignarValor(*vectorA , 0 , a1);
+  asignarValor(*vectorA , 1 , a2);
+  asignarValor(*vectorB , 0 , b1);
+  asignarValor(*vectorB , 0 , b2);
 }
