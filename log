@@ -565,3 +565,18 @@ Thu 16 Mar 2023 03:25:55 PM UTC:
  tests:  8|0
 total_score: 70/70
 9e61617
+Sun 19 Mar 2023 12:07:41 AM UTC: 
+ exercises.c | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV’:
+exercises.c:117:9: error: invalid operands to binary + (have ‘Vector *’ and ‘Vector *’)
+  117 |   c = a + b;
+      |         ^
+exercises.c: In function ‘sumaV2’:
+exercises.c:126:7: error: unused variable ‘datos’ [-Werror=unused-variable]
+  126 |   int datos = 2;
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+a9b8ca0
