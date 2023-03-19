@@ -706,3 +706,9 @@ exercises.c:97:28: note: expected ‘Vector *’ but argument is of type ‘Vect
       |                   ~~~~~~~~~^
 Compilation failed
 3d8009e
+Sun 19 Mar 2023 12:30:23 AM UTC: 
+ exercises.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  7|1
+total_score: 60/70
+73be782
