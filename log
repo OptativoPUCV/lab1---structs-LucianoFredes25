@@ -580,3 +580,14 @@ exercises.c:126:7: error: unused variable ‘datos’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 a9b8ca0
+Sun 19 Mar 2023 12:15:08 AM UTC: 
+ exercises.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘sumaV2’:
+exercises.c:129:7: error: unused variable ‘datos’ [-Werror=unused-variable]
+  129 |   int datos = 2;
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+982cd0a
